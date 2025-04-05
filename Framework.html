@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="Framework.css">
+</head>
+<body class="bg-[#291812] w-full">
+
+
+<div class="flex flex-row">
+
+ <nav class=" border flex-1 bg-[#291812] h-[50px] ">    
+    <div class="w-50% flex flex-row items-center justify-center">
+        <img src="images\coffeeicon.png" alt="Coffee" class="h-[40px] md:ml-20">
+        <div class="md:w-full md:flex-1 pacifico-regular text-white"> Confetto </div> 
+    </div>
+    <div class="hidden  md:block md:flex-1"></div>
+ </nav>
+
+ <div class="border flex-1 searchbar pacifico-regular md:gap-10 flex-end">
+    <p class="home">Home</p>
+    <p class="about">About</p>
+    <p class="steps">Steps</p>
+    <p class="testimonial">Testimonial</p>
+ </div>
+
+</div>
+ 
+<div class="border h-full bg-[#291812] p-7 md:flex md:flex-row-reverse">
+
+    <div class="h-[40vh] text-white flex flex-col pt-8  md:w-[40%] md:h-full md:py-8 md:pr-8 "> 
+        <p class="text-yellow-200 text-xs text-center md:text-start">EXCEPTIONAL QUALITY</p>  
+        <p class="pacifico-regular text-4xl text-center md:text-left">It's time for a <br> good coffee </p>
+        <p class=" text-center md:text-left ">Each select coffee bean reflexts our commitment to Peruvian coffee growers, who bring the best select coffee to your table.</p>
+        <div class="button w-30 h-10 ">
+            <p class="place-content-middle">Get Started</p>
+        </div>
+        
+    </div>
+
+    <div class="border h-[50vh]  flex items-center justify-center md:w-[60%] md:h-full  ">
+            <img src="/images/cofee_jar.png" alt="Coffee" class="object-fill">
+    </div>
+   
+</div>
+
+
+<div class="rounded">
+    <div class="bg-[#472E27] h-full md:flex flex-row md:h-80 ">
+        <div>   
+            <div class="buttonscr !text-lg text-white w-18 h-12 flex items-center justify-center md:text-left"> Scroll down v </div>
+            <div class="text-base text-center text-white  md:text-left "> <br> We strive to form deep partnerships with farmers from all over the world to create perspective together and form healthy working relationships built on trust and respect.</div> 
+        </div>
+        <div class="coffee">
+            <div class=" class= pacifico-regular coffee-item">
+                <img src="images\coffepackage.png" alt="Classic Coffee - $17.90" class="coffeeimg">
+                <p class="text-xs text-center mt-2 text-white"> Classic Coffee <br> $17.90</p>
+            </div>
+            <div class=" class= pacifico-regular coffee1">   
+                <img src="images\coffepackage.png" alt="Black Coffee - $24.90" class="coffeeimg">
+                <p class="text-xs text-center mt-2 text-white"> Black Coffee <br> $24.90 </p>
+            </div>     
+            <div class= pacifico-regular>
+                <img src="images\coffepackage.png" alt="Strong Coffee - $32.90" class="coffeeimg">
+                <p class="text-xs text-center mt-2 text-white"> Strong Coffee <br> $32.90 </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg-white h-80 md:flex flex-row-reverse md:h-70">
+    <div class="text-xs text-[#291812] h-50vh md:w-[50%] md:flex md:flex-col md:justify-center md:items-start md:p-8">
+        <p class="text-[#472E27] pacifico-regular text-2xl text-center">
+            Our History
+        </p>
+        <p class="text-[#472E27] text-base text-center">
+            We make and grow the best coffee in Peru, accompanying families since 1930, with professional workers who harvest, collect and select the coffee with quality work, thus providing exquisite coffee to enjoy together as a family.
+        </p>
+    </div>
+    <div class="h-50vh md:w-[50%]">
+        <img src="images\coffee_beans.jpg" alt="Coffee" class="h-45 flex md:h-50 rounded-[15px] md:items-center md:justify-center">
+    </div>
+
+</div>
+
+
+<div class="bg-[#291812] h-80  flex flex-col justify-around gap-20 md:h-70 md:flex-row md:flex-wrap">
+   <div>
+        <div class="bg-[#291812] h-[50px] w-50% flex flex-row items-center justify-center">
+            <img src="images\coffeeicon.png" alt="Coffee" class="h-[40px] md:ml-20">
+            <div class="md:w-full md:flex-1 pacifico-regular text-white"> Confetto </div> 
+        </div>
+        <p class="pacifico-regular text-center text-2xl text-white">Sign up for our newsletter</p>
+    </div>
+     
+
+    <div class=" h-[33%] w-80vw  text-xs text-left flex flex-col gap-4" >
+        <input type="text" name="e-mail" placeholder="Enter e-mail address" class="border rounded-md text-white">
+        <button type="submit" class="bg-amber-400 border rounded-md text-white"> Subscribe </button>
+        <p class="text-center">We care about your data. Read our Privacy Policy </p>
+    </div>
+
+    <div class="h-[33%] w-70vw">
+        <img src="images\icons.png" alt="icons" class="bg-cover">
+    </div>
+    
+ </div>  
+</body>
+</html>
+
